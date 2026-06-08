@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Album example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+    <header id="inicio">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Opciones</button>
+            <ul class="dropdown-menu  bg-dark  " >
+              <li class="border-danger"><a class="dropdown-item text-primary " href="index.html">Página principal</a></li>
+              <li class="border-danger"><a class="dropdown-item text-primary " href="#inicio">Ir al inicio</a></li>
+             <li class="border-danger"><a class="dropdown-item text-primary" href="index.html#contenido">Contenido</a></li>
+             <li class="border-danger"><a class="dropdown-item text-primary " href="#final">Ir al final</a></li>
+            </ul>
+
+            <form
+            class="d-flex"
+            onsubmit="
+              event.preventDefault();
+              ejecutarBusqueda();
+            "
+          >
+            <input
+              id="inputBusqueda"
+              type="search"
+              class="form-control me-2"
+              aria-label="Buscar"
+              placeholder="Buscar tema..."
+            />
+            <button
+              class="btn btn-primary"
+              type="button"
+              onclick="ejecutarBusqueda()"
+            >
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="footer"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Escriba aquí..." aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+      
+      
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light"><b>manual de usuario</b></h1>
+        <p class="lead text-muted">En este manual de usuario esta todo lo que debes de conocer acerca de la pagina te invito a acceder</p>
+        
+        <div class="row featurette mt-5">
+          <div class="text-center col">
+           <img src="img/logo-pdf.png" width="70" height="50">
+         <h2>Manual de Usuario</h2>
+         <p><a class="btn btn-outline-primary"  href="Manual de Usuario.docx">Visualizar Contenido</a></p>
+          </div>
+                     </div>
+                 </div>
+
+<div id="final" class="container">
+  <footer class="py-3 my-4 text-dark">
+    <p class="text-center text-muted"><b>&copy;</b> <b>CP Fernando Aguado y Rico 2025. Todos los derechos reservados</b></p>
+  </footer>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/buscar.js"></script>
+      
+  </body>
+</html>

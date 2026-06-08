@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+    <link rel="stylesheet" href="css/footers.css">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+    <header id="inicio">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Opciones</button>
+            <ul class="dropdown-menu  bg-dark  " >
+              <li class="border-danger"><a class="dropdown-item text-primary " href="index.html">Página principal</a></li>
+              <li class="border-danger"><a class="dropdown-item text-primary " href="#inicio">Ir al inicio</a></li>
+             <li class="border-danger"><a class="dropdown-item text-primary" href="index.html#contenido">Contenido</a></li>
+             <li class="border-danger"><a class="dropdown-item text-primary " href="#final">Ir al final</a></li>
+             <li class="border-danger"><a class="dropdown-item text-primary " href="MANUAL DE USUARIO.html">Manual de Usuario</a></li>
+            </ul>
+
+            <form
+            class="d-flex"
+            onsubmit="
+              event.preventDefault();
+              ejecutarBusqueda();
+            "
+          >
+            <input
+              id="inputBusqueda"
+              type="search"
+              class="form-control me-2"
+              aria-label="Buscar"
+              placeholder="Buscar tema..."
+            />
+            <button
+              class="btn btn-primary"
+              type="button"
+              onclick="ejecutarBusqueda()"
+            >
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+      
+      
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light"><b>Galeria de Imagenes Útiles</b></h1>
+        <p class="lead text-muted">En esta página encontrará material visual extra sobre el contenido del sitio web.</p>
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/doc_digital.jpg" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">Documento Digital</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" width="421.31" height="225" alt="">
+
+            <div class="card-body">
+              <p class="card-text text-dark text-center" style="font-size: 25px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+<div id="final" class="container">
+  <footer class="py-3 my-4 text-dark">
+    <p class="text-center text-muted"><b>&copy;</b> <b>CP Fernando Aguado y Rico 2025. Todos los derechos reservados</b></p>
+  </footer>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/buscar.js"></script>.
+<script>
+        document
+          .getElementById("inputBusqueda")
+          .addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+              event.preventDefault();
+              ejecutarBusqueda(true);
+            }
+          });
+      </script>
+      
+  </body>
+</html>
